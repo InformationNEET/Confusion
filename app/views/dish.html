@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="confusionApp">
+<body>
+
+    <div class="container" ng-controller="dishDetailController as DishCtrl">
+        <div class="row row-content">
+            <div class="col-xs-12">
+              <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                <img class="media-object img-thumbnail" ng-src={{DishCtrl.dish.image}} alt="images">    
+                    </a>
+                </div>    
+                <div class="media-body">
+                <h2 class="media-heading">{{DishCtrl.dish.name}} 
+                    <span class="label label-danger">{{DishCtrl.dish.label}}</span>
+                    <span class="label label-danger">{{DishCtrl.dish.label}}</span>
+                    <span class="badge">{{DishCtrl.dish.price | currency }}</span>
+                    </h2>
+                    <p> {{ DishCtrl.dish.description }}</p>
+                </div>
+                </div>
+                  
+                </div>
+            <div class="col-xs-9 col-xs-offset-1">
+                <ul>
+                <blockquote ng-repeat="comment in DishCtrl.dish.comments">
+                        <p>{{DishCtrl.comment.rating}} Stars</p>
+                        <p>{{DishCtrl.comment.comment}}</p>
+                        <footer>{{DishCtrl.comment.author}}, {{comment.date | date}}</footer>
+                    </blockquote>
+                </ul>
+            </div>
+                
+        
+        </div>
+             <div class="col-xs-12">
+                <button class="btn btn-xs btn-primary pull-right"
+                    type="button" ui-sref="app.menu">
+                    Back to Menu
+                </button>
+                <div class="media">
+    </div>
+</body>
+</html>

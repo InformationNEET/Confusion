@@ -1,0 +1,22 @@
+{
+  "name": "bower_components",
+  "homepage": "https://github.com/sgaurav19928/Mytest",
+  "authors": [
+    "sgaurav19928 <sgaurav19928@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "angular-route": "^1.5.8"
+  }
+}

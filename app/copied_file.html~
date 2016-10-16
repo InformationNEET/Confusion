@@ -1,0 +1,18 @@
+<!DOCTYPE>
+
+<html lang="en">
+
+<head>
+<!--Meta Tags-->
+<meta charset="utf-8">
+<meta http-eqiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scal=1">
+<!-- Title-->
+<title>Program 1 </title>
+<!--BootStrap-->
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="styles/bootstrap-social.css" rel="stylesheet">
+<link href="styles/mystyles.css" rel="stylesheet">
+</head>
